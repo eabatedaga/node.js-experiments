@@ -8,7 +8,7 @@ var fs = require ('fs');
 new lazy (fs.createReadStream('VTK.COSMA.COM_2015-08-18 13%3A13%3A56Z.txt'))
   .lines
   .forEach(function(line){
-    console.log("Line:" + myLookup.getPrettyName(line);
+    console.log("Line:" + myLookup.getPrettyName(line));
   }
 );
 
@@ -18,7 +18,7 @@ function DNTransform() {
   this.init = function() {
 
     //load rules in text files
-
+    //whatever
   }
 
   this,getPrettyName = function (thisLine){
